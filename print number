@@ -1,0 +1,19 @@
+package PatternHomework;
+
+public class print1to7nuber {
+	public static void main(String[] args) {
+		int n=7;
+		for(int r=1;r<=n;r++) {
+			int k=r;
+			for(int c=1;c<=n;c++) {
+				System.out.print(k+" ");
+				k++;
+				if(k>7) {
+					k=1;
+				}
+			}
+			System.out.println();
+		}
+	}
+
+}
